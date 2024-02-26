@@ -11,8 +11,8 @@
             'active' => true,
         ],
         [
-            'url' => '/contatti',
-            'label' => 'Contatti',
+            'url' => '/movies',
+            'label' => 'Film',
             'active' => false,
         ],
     ];
@@ -23,15 +23,11 @@
         <ul>
             @foreach ($links as $link)
                 <li>
-                    @if ($link['active'])
-                        <a href="{{ $link['url'] }}">
-                            {{ $link['label'] }}
-                        </a>
-                    @else
-                        <del>
-                            {{ $link['label'] }}
-                        </del>
-                    @endif
+
+                    <a href="{{ $link['url'] }}">
+                        {{ $link['label'] }}
+                    </a>
+
                 </li>
             @endforeach
         </ul>
