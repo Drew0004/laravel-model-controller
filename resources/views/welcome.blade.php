@@ -17,7 +17,7 @@
                         <li>Data: {{$singleMovie['date']}}</li>
                         <li>Voto: {{$singleMovie['vote']}}</li>
                       </ul>
-                      <a href="#" class="btn btn-primary">Info film</a>
+                      <a href="{{ route('singlemovie', ['id' => $singleMovie->id]) }}" class="btn btn-primary">Info film</a>
                     </div>
                   </div>
             </div>
