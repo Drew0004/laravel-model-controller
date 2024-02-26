@@ -18,7 +18,7 @@
 
         @include('partials.header')
 
-        <main>
+        <main class="bg-black">
 
             @yield('main-content')
 

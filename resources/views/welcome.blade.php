@@ -5,10 +5,10 @@
 @section('main-content')
 
 <div class="container">
-    <div class="row">
+    <div class="row justify-content-center align-items-center py-5">
         @foreach ($movies as $singleMovie)
-            <div class="col-2">
-                <div class="card">
+            <div class="col-2 py-3">
+                <div class="card card-height">
                     <div class="card-body">
                       <h5 class="card-title">Titolo: {{$singleMovie['title']}}</h5>
                       <h6>Titolo originale: {{$singleMovie['original_title']}}</h6>

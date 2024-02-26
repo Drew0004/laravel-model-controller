@@ -1,2 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
 
+header{
+    background-color: rgb(26, 26, 26);
+    h1{
+        font-family: 'magna';
+        font-weight: light;
+    }
+}
+
+main{
+    height: calc(100vh - 192px);
+
+    .card-height{
+        height: 300px;
+    }
+}
+
+footer{
+    background-color: rgb(26, 26, 26);
+}
